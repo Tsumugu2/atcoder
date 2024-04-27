@@ -1,0 +1,5 @@
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+a = sum(A)
+b = sum(B)
+print(a-b+1)
